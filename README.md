@@ -154,3 +154,83 @@ input:checked + label {
 }
 
 Recipients: Karen Taylor] Hello Karen, Thank you for your cooperation on this case. Upon checking, it seems that my suggestion did not work for you. However, this request will require some editing of your template files and we are not authorized to make any form of modification via chat, email or phone. As a courtesy, we have a team designated to review requests like this to see if it's something they might be able to help with. Just to set your expectation, this process can take some time to get completed. We do not charge extra for this service, but we'll request for your patience as we have many requests to handle. I'll send this request to our senior support now so that they can have a look and let you know how we need to move forward. They will reply to you via this case as soon as they have a look. As for the product options, I would like to verify if you're referring to this section? http://screencast.com/t/miZ3C8unDP6 Upon checking your store, I noticed that you also have product options applied on the products. http://screencast.com/t/2quslcp8cw7 I have here a short clips on how to adjust the product price and change the product image upon clicking the product option. First, I have created a test product which is more related to your products, please click the link to view the video: http://screencast.com/t/FWSo3lwSPmZ Second, I have made a product option and apply it to the product created above. http://screencast.com/t/2Z3IWsIlfTg As for the rules, Change product image: http://screencast.com/t/Znm3SfmSE77r Adjust price: http://screencast.com/t/rFQzrmqm3Js Disable product if out of stock: http://screencast.com/t/Mcj5OpL4 I do hope that the steps provided are what you need. Thank you for being a part of the Bigcommerce family. Feel free to talk to us again with regards to any issues and concerns. Have a great day!
+
+
+
+hide show 
+
+<script>
+         $(document).ready(function(){
+    $('input[type="radio"]').click(function(){
+        if($(this).attr("value")==""){
+            $(".productAttributeList").not(".productAttributeList").show();
+            $(".productAttributeList .productAttributeRow:nth-child(n+2)").hide();
+        }
+        if($(this).attr("value")=="7"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="8"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="9"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="10"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="11"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="12"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="13"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="14"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="39"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="173"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="174"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    if($(this).attr("value")=="175"){
+            $(".productAttributeList").not(".productAttributeRow").show();
+            $(".productAttributeRow").show();
+        }
+    });
+});
+</script>
+
+<script>
+    
+   (function($) {
+    $(document).ready( function() {
+        $(".productAttributeList input[type='radio']").each(
+        function() {
+            if ($(this).is(':checked') && $(this).val() == '') {
+           $('.productAttributeList .productAttributeRow:nth-child(n+2)').css("display", "none");
+        }
+        }
+);
+});
+})(jQuery);
+ 
+    
+    </script>
